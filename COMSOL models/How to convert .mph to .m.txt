@@ -1,0 +1,6 @@
+In COMSOL GUI
+Clear previous solver and job configurations, remove any result/plot nodes
+2. Compact History
+
+In MATLAB script
+Change
