@@ -25,8 +25,8 @@ For the rockfish models, bone material properties are assigned using a voxel-bas
 
 Large files are not tracked in this GitHub repository. These include:
 
-* CT datasets
-* COMSOL `.mph` model files
+1) CT datasets and Slicer segmentation files
+2) COMSOL `.mph` model files
 
 These files are stored in the `vchhaya` project directory on the Pittsburgh Supercomputing Center system:
 
