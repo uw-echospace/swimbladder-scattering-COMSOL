@@ -16,8 +16,8 @@ COMSOL models reproduce the geometries and acoustic conditions used in the analy
 
 The repository includes files and scripts associated with COMSOL models of:
 
-* Rockfish specimens scanned in Taiwan
-* Plainfin midshipman swimbladder geometry provided by Sujay Balebail
+1) Rockfish specimens scanned in Taiwan
+2) Plainfin midshipman swimbladder geometry provided by Sujay Balebail
 
 For the rockfish models, bone material properties are assigned using a voxel-based workflow. Bone-segment coordinates are exported from 3D Slicer and mapped onto the fish body geometry using nearest-neighbor interpolation.
 
