@@ -1,6 +1,0 @@
-﻿Model,Description
-TS_rigid_sphere.mph,Rigid sphere scatterer in water domain
-TS_soft_sphere.mph,Pressure release sphere scatterer in water domain
-TS_air_sphere.mph,Air sphere (bubble) scatterer in water domain
-TS_elastic_sphere.mph,Solid bone sphere scatterer in water domain
-TS_elastic_shell.mph,Spherical bone shell with air cavity scatterer in water domain
