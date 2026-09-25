@@ -1,11 +1,11 @@
-﻿Model,Description
-TS_rigid_sphere.mph,Rigid sphere scatterer in water domain
-TS_soft_sphere.mph,Pressure release sphere scatterer in water domain
-TS_air_sphere.mph,Air sphere (bubble) scatterer in water domain
-TS_elastic_sphere.mph,Solid bone sphere scatterer in water domain
-TS_elastic_shell.mph,Spherical bone shell with air cavity scatterer in water domain
-TS_rockfish.mph,Rockfish body with swim bladder in water domain. The entire body is approximated to have properties of soft tissue
-TS_rockfish_bone.mph,"Rockfish body with swim bladder in water domain. Includes voxel-based assignment of bone properties based on coordinate file ""bone_voxel_trimmed_translated.csv"""
-TS_rockfish_bone_monostatic.mph,"Similar to TS_rockfish but runs a parameter sweep for incident plane wave angle, allowing the measurement of monostatic scattering pattern."
-TS_midshipman.mph,Plainfin midshipman swim bladder (no body) in water domain
-TS_midshipman_monostatic.mph,"Simlilar to TS_midshipman but runs a parameter sweep for incident plane wave angle, allowing the measurement of monostatic scattering pattern"
+Model,Description,PSC location
+TS_rigid_sphere.mph,Rigid sphere scatterer in water,vchhaya/COMSOL_models/spherical_benchmarks/TS_rigid_sphere.mph
+TS_soft_sphere.mph,Pressure release sphere scatterer in water,vchhaya/COMSOL_models/spherical_benchmarks/TS_soft_sphere.mph
+TS_air_sphere.mph,Air sphere (bubble) scatterer in water,vchhaya/COMSOL_models/spherical_benchmarks/TS_air_sphere.mph
+TS_elastic_sphere.mph,Solid bone sphere scatterer in water,vchhaya/COMSOL_models/spherical_benchmarks/TS_elastic_sphere.mph
+TS_elastic_shell.mph,Spherical bone shell with an air cavity in water,vchhaya/COMSOL_models/spherical_benchmarks/TS_elastic_shell.mph
+TS_rockfish.mph,Rockfish body and swim bladder in water; body assigned soft tissue properties,vchhaya/COMSOL_models/fish_swimbladders/TS_rockfish.mph
+TS_rockfish_bone.mph,"Rockfish body and swim bladder with voxel-based bone properties assigned using bone_voxel_trimmed_translated.csv",vchhaya/COMSOL_models/fish_swimbladders/TS_rockfish_bone.mph
+TS_rockfish_bone_monostatic.mph,Rockfish model with an incident-angle sweep for measuring the monostatic scattering pattern,vchhaya/COMSOL_models/fish_swimbladders/TS_rockfish_bone_monostatic.mph
+TS_midshipman.mph,"Plainfin midshipman swim bladder, without the body, in water",vchhaya/COMSOL_models/fish_swimbladders/TS_midshipman.mph
+TS_midshipman_monostatic.mph,Midshipman swim bladder model with an incident-angle sweep for measuring the monostatic scattering pattern,vchhaya/COMSOL_models/fish_swimbladders/TS_midshipman_monostatic.mph
